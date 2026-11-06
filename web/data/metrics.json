@@ -1,0 +1,20 @@
+{
+  "auc_cv5": 0.69,
+  "capture": {
+    "top10": 0.185,
+    "top20": 0.367,
+    "top30": 0.535
+  },
+  "top_features": {
+    "monthly_telecom_spend_inr": 0.236,
+    "employee_count": 0.111,
+    "segment_Micro retail & services": 0.104,
+    "lead_source_Referral": 0.056,
+    "has_gstin_N": 0.056,
+    "num_sites": 0.054,
+    "lead_source_Inbound call": 0.053,
+    "current_provider_Accel (mobile only)": 0.033,
+    "current_internet_Leased line": 0.03,
+    "annual_turnover_band_5 - 25 cr": 0.028
+  }
+}

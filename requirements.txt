@@ -1,0 +1,8 @@
+# Data build, model and OCR pipeline (the API server needs nothing beyond Python 3.10+)
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+opencv-python-headless>=4.9
+pytesseract>=0.3.10   # also needs the tesseract-ocr system package
+Pillow>=10.0
+pytest>=8.0

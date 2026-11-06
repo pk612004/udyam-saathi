@@ -1,0 +1,31 @@
+flowchart LR
+  subgraph Owner["Shop owner's phone"]
+    W[WhatsApp / web app<br/>Hindi, Tamil, Hinglish, voice]
+  end
+  subgraph Saathi["Udyam Saathi"]
+    A[AI Advisor<br/>Claude / Sarvam<br/>understands needs]
+    R[Rules engine<br/>tier, size, GSTIN,<br/>dependencies]
+    Q[Quote + checkout<br/>one monthly price,<br/>toggles, EMI]
+    K[Smart KYC<br/>quality gate, deskew, OCR,<br/>registry checks, fix-it actions]
+    P[Promise Engine<br/>honest ETA,<br/>Day-1 AirFiber bridge]
+    T[Order tracker<br/>proactive WhatsApp]
+    S[Lead scoring<br/>propensity model]
+  end
+  subgraph Airtel["Airtel + India Stack"]
+    IQ[Airtel IQ<br/>Silent Auth, SIM swap]
+    EL[Entity Locker /<br/>GSTN, Udyam]
+    AM[Airtel Money<br/>EMI on setup]
+    UPI[UPI AutoPay]
+    NW[Network inventory<br/>fibre feasibility]
+    CRM[Sales + partner<br/>console]
+  end
+  W --> IQ --> A
+  A <--> R
+  R --> Q --> K --> UPI --> P --> T --> W
+  K <--> EL
+  Q <--> AM
+  R <--> NW
+  A -. could not close .-> S --> CRM
+  C[(Consent ledger<br/>masked IDs,<br/>30-day doc deletion)]
+  K --- C
+  A --- C

@@ -1,0 +1,1142 @@
+{
+ "K01": {
+  "applicant": "K01",
+  "gstin": "37IHKXV5167L1ZS",
+  "business": "Vindhya Tours & Travels",
+  "verdict": "Rejected for now",
+  "blocking": [
+   "GSTIN active in registry"
+  ],
+  "checks": [
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "pass",
+    "detail": "37IHKXV5167L1ZS",
+    "action": ""
+   },
+   {
+    "id": "gst.status",
+    "label": "GSTIN active in registry",
+    "status": "block",
+    "detail": "Registry status: Cancelled",
+    "action": "Cannot sell GST-only products; offer non-GST bundle and help re-activate GST"
+   },
+   {
+    "id": "gst.state",
+    "label": "State code matches registry",
+    "status": "pass",
+    "detail": "37 = Andhra Pradesh; registry: Andhra Pradesh",
+    "action": ""
+   },
+   {
+    "id": "gst.legal",
+    "label": "Legal name matches registry",
+    "status": "pass",
+    "detail": "Doc: Neha Kaur (Prop. Vindhya Tours & Travels) | Registry: Neha Kaur (Prop. Vindhya Tours & Travels)",
+    "action": ""
+   },
+   {
+    "id": "gst.trade",
+    "label": "Trade name matches registry",
+    "status": "pass",
+    "detail": "Doc: Vindhya Tours & Travels | Registry: Vindhya Tours & Travels",
+    "action": ""
+   },
+   {
+    "id": "gst.address",
+    "label": "Address matches registry",
+    "status": "pass",
+    "detail": "Registry: Shop/Unit 1, Tech Park Road, Visakhapatnam, Andhra Pradesh - 118383",
+    "action": ""
+   },
+   {
+    "id": "udyam.present",
+    "label": "Udyam registration",
+    "status": "warn",
+    "detail": "Udyam number is blank on the certificate",
+    "action": "Ask for Udyam number, or skip: Udyam is optional for most products"
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-06-26 (19 days old)",
+    "action": ""
+   },
+   {
+    "id": "addr.name",
+    "label": "Bill is in the business name",
+    "status": "pass",
+    "detail": "Billed to: Vindhya Tours & Travels",
+    "action": ""
+   },
+   {
+    "id": "addr.match",
+    "label": "Bill address = GST address",
+    "status": "pass",
+    "detail": "Bill: Shop/Unit 1, Tech Park Road, Visakhapatnam, Andhra Pradesh - 118383",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2028-03-26",
+    "action": ""
+   },
+   {
+    "id": "sig.biz",
+    "label": "Signatory belongs to this business",
+    "status": "pass",
+    "detail": "ID for: Vindhya Tours & Travels",
+    "action": ""
+   },
+   {
+    "id": "sig.prop",
+    "label": "Signatory is the proprietor",
+    "status": "pass",
+    "detail": "ID: Neha Kaur | Proprietor: Neha Kaur",
+    "action": ""
+   }
+  ]
+ },
+ "K02": {
+  "applicant": "K02",
+  "gstin": "19EOGXH4115Y1ZL",
+  "business": "Harmony Dental Care",
+  "verdict": "Approved",
+  "blocking": [],
+  "checks": [
+   {
+    "id": "gst.skew",
+    "label": "Tilted photo straightened",
+    "status": "info",
+    "detail": "Auto-rotated 7\u00b0 before reading",
+    "action": ""
+   },
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "pass",
+    "detail": "19EOGXH4115Y1ZL",
+    "action": ""
+   },
+   {
+    "id": "gst.status",
+    "label": "GSTIN active in registry",
+    "status": "pass",
+    "detail": "Registry status: Active",
+    "action": ""
+   },
+   {
+    "id": "gst.state",
+    "label": "State code matches registry",
+    "status": "pass",
+    "detail": "19 = West Bengal; registry: West Bengal",
+    "action": ""
+   },
+   {
+    "id": "gst.legal",
+    "label": "Legal name matches registry",
+    "status": "pass",
+    "detail": "Doc: Joseph Shah (Prop. Harmony Dental! Care) | Registry: Joseph Shah (Prop. Harmony Dental Care)",
+    "action": ""
+   },
+   {
+    "id": "gst.trade",
+    "label": "Trade name matches registry",
+    "status": "pass",
+    "detail": "Doc: Harmony Dental Care | Registry: Harmony Dental Care",
+    "action": ""
+   },
+   {
+    "id": "gst.address",
+    "label": "Address matches registry",
+    "status": "pass",
+    "detail": "Registry: Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+    "action": ""
+   },
+   {
+    "id": "udyam.registry",
+    "label": "Udyam number found in registry",
+    "status": "pass",
+    "detail": "UDYAM-WB-00-5053330",
+    "action": ""
+   },
+   {
+    "id": "udyam.name",
+    "label": "Udyam name matches",
+    "status": "pass",
+    "detail": "Registry: Harmony Dental Care",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-05-22 (54 days old)",
+    "action": ""
+   },
+   {
+    "id": "addr.name",
+    "label": "Bill is in the business name",
+    "status": "pass",
+    "detail": "Billed to: Harmony Dental Care",
+    "action": ""
+   },
+   {
+    "id": "addr.match",
+    "label": "Bill address = GST address",
+    "status": "pass",
+    "detail": "Bill: Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2028-09-10",
+    "action": ""
+   },
+   {
+    "id": "sig.biz",
+    "label": "Signatory belongs to this business",
+    "status": "pass",
+    "detail": "ID for: Harmony Dental Care",
+    "action": ""
+   },
+   {
+    "id": "sig.prop",
+    "label": "Signatory is the proprietor",
+    "status": "pass",
+    "detail": "ID: Joseph Shah | Proprietor: Joseph Shah",
+    "action": ""
+   }
+  ]
+ },
+ "K03": {
+  "applicant": "K03",
+  "gstin": "27XUIXG0767D1ZP",
+  "business": "Ganesh Woodcraft",
+  "verdict": "Approved",
+  "blocking": [],
+  "checks": [
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "pass",
+    "detail": "27XUIXG0767D1ZP (OCR read '27XUIXGO767D1ZP', corrected look-alike characters)",
+    "action": ""
+   },
+   {
+    "id": "gst.status",
+    "label": "GSTIN active in registry",
+    "status": "pass",
+    "detail": "Registry status: Active",
+    "action": ""
+   },
+   {
+    "id": "gst.state",
+    "label": "State code matches registry",
+    "status": "pass",
+    "detail": "27 = Maharashtra; registry: Maharashtra",
+    "action": ""
+   },
+   {
+    "id": "gst.legal",
+    "label": "Legal name matches registry",
+    "status": "pass",
+    "detail": "Doc: Joseph Singh (Prop. Ganesh Woodcraft) | Registry: Joseph Singh (Prop. Ganesh Woodcraft)",
+    "action": ""
+   },
+   {
+    "id": "gst.trade",
+    "label": "Trade name matches registry",
+    "status": "pass",
+    "detail": "Doc: Ganesh Woodcraft | Registry: Ganesh Woodcraft",
+    "action": ""
+   },
+   {
+    "id": "gst.address",
+    "label": "Address matches registry",
+    "status": "pass",
+    "detail": "Registry: Shop/Unit 80, Civil Lines, Nagpur, Maharashtra - 411231",
+    "action": ""
+   },
+   {
+    "id": "udyam.registry",
+    "label": "Udyam number found in registry",
+    "status": "pass",
+    "detail": "UDYAM-MH-00-9516696",
+    "action": ""
+   },
+   {
+    "id": "udyam.name",
+    "label": "Udyam name matches",
+    "status": "pass",
+    "detail": "Registry: Ganesh Woodcraft",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-05-30 (46 days old)",
+    "action": ""
+   },
+   {
+    "id": "addr.name",
+    "label": "Bill is in the business name",
+    "status": "pass",
+    "detail": "Billed to: Ganesh Woodcraft",
+    "action": ""
+   },
+   {
+    "id": "addr.match",
+    "label": "Bill address = GST address",
+    "status": "pass",
+    "detail": "Bill: Shop/Unit 80, Civil Lines, Nagpur, Maharashtra - 411231",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2028-07-04",
+    "action": ""
+   },
+   {
+    "id": "sig.biz",
+    "label": "Signatory belongs to this business",
+    "status": "pass",
+    "detail": "ID for: Ganesh Woodcraft",
+    "action": ""
+   },
+   {
+    "id": "sig.prop",
+    "label": "Signatory is the proprietor",
+    "status": "pass",
+    "detail": "ID: Joseph Singh | Proprietor: Joseph Singh",
+    "action": ""
+   }
+  ]
+ },
+ "K04": {
+  "applicant": "K04",
+  "gstin": null,
+  "business": "Saffron Dental Care LLP",
+  "verdict": "Retake photo",
+  "blocking": [
+   "GST certificate readable"
+  ],
+  "checks": [
+   {
+    "id": "gst.quality",
+    "label": "GST certificate readable",
+    "status": "block",
+    "detail": "Image too blurred (sharpness 1, need 300+)",
+    "action": "Ask owner to retake the photo, with live camera guide"
+   },
+   {
+    "id": "udyam.registry",
+    "label": "Udyam number found in registry",
+    "status": "pass",
+    "detail": "UDYAM-MH-00-6131836",
+    "action": ""
+   },
+   {
+    "id": "udyam.name",
+    "label": "Udyam name matches",
+    "status": "pass",
+    "detail": "Registry: Saffron Dental Care LLP",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-05-28 (48 days old)",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2028-08-03",
+    "action": ""
+   }
+  ]
+ },
+ "K05": {
+  "applicant": "K05",
+  "gstin": "32TZAXB5481U1Z1",
+  "business": "Balaji Realty LLP",
+  "verdict": "Approved",
+  "blocking": [],
+  "checks": [
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "pass",
+    "detail": "32TZAXB5481U1Z1",
+    "action": ""
+   },
+   {
+    "id": "gst.status",
+    "label": "GSTIN active in registry",
+    "status": "pass",
+    "detail": "Registry status: Active",
+    "action": ""
+   },
+   {
+    "id": "gst.state",
+    "label": "State code matches registry",
+    "status": "pass",
+    "detail": "32 = Kerala; registry: Kerala",
+    "action": ""
+   },
+   {
+    "id": "gst.legal",
+    "label": "Legal name matches registry",
+    "status": "pass",
+    "detail": "Doc: Balaji Realty LLP | Registry: Balaji Realty LLP",
+    "action": ""
+   },
+   {
+    "id": "gst.trade",
+    "label": "Trade name matches registry",
+    "status": "pass",
+    "detail": "Doc: Balaji Realty LLP | Registry: Balaji Realty LLP",
+    "action": ""
+   },
+   {
+    "id": "gst.address",
+    "label": "Address matches registry",
+    "status": "pass",
+    "detail": "Registry: Shop/Unit 38, Civil Lines, Kochi, Kerala - 752083",
+    "action": ""
+   },
+   {
+    "id": "udyam.present",
+    "label": "Udyam registration",
+    "status": "info",
+    "detail": "Certificate missing: auto-fetched UDYAM-KL-00-5521886 from registry (name + city match)",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-06-11 (34 days old)",
+    "action": ""
+   },
+   {
+    "id": "addr.name",
+    "label": "Bill is in the business name",
+    "status": "pass",
+    "detail": "Billed to: Balaji Realty LLP",
+    "action": ""
+   },
+   {
+    "id": "addr.match",
+    "label": "Bill address = GST address",
+    "status": "pass",
+    "detail": "Bill: Shop/Unit 38, Civil Lines, Kochi, Kerala - 752083",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2029-09-11",
+    "action": ""
+   },
+   {
+    "id": "sig.biz",
+    "label": "Signatory belongs to this business",
+    "status": "pass",
+    "detail": "ID for: Balaji Realty LLP",
+    "action": ""
+   }
+  ]
+ },
+ "K06": {
+  "applicant": "K06",
+  "gstin": null,
+  "business": "Saffron Unisex Salon",
+  "verdict": "Rejected for now",
+  "blocking": [
+   "GSTIN format and checksum"
+  ],
+  "checks": [
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "block",
+    "detail": "'O8YKZXS8189L1Z0' fails the GSTIN checksum; registry has 08YKZXS5189L1ZO (2 characters different) for Saffron Unisex Salon",
+    "action": "Possible typo or edited document: confirm GSTIN with owner, route to manual review"
+   },
+   {
+    "id": "udyam.registry",
+    "label": "Udyam number found in registry",
+    "status": "pass",
+    "detail": "UDYAM-RJ-00-6577157",
+    "action": ""
+   },
+   {
+    "id": "udyam.name",
+    "label": "Udyam name matches",
+    "status": "pass",
+    "detail": "Registry: Saffron Unisex Salon",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-06-11 (34 days old)",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2028-09-15",
+    "action": ""
+   }
+  ]
+ },
+ "K07": {
+  "applicant": "K07",
+  "gstin": "07CPCXN0398P1ZT",
+  "business": "Neelgiri Physio Clinic",
+  "verdict": "Rejected for now",
+  "blocking": [
+   "Legal name matches registry"
+  ],
+  "checks": [
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "pass",
+    "detail": "07CPCXN0398P1ZT (OCR read '07CPCXNO398P1ZT', corrected look-alike characters)",
+    "action": ""
+   },
+   {
+    "id": "gst.status",
+    "label": "GSTIN active in registry",
+    "status": "pass",
+    "detail": "Registry status: Active",
+    "action": ""
+   },
+   {
+    "id": "gst.state",
+    "label": "State code matches registry",
+    "status": "pass",
+    "detail": "07 = Delhi; registry: Delhi",
+    "action": ""
+   },
+   {
+    "id": "gst.legal",
+    "label": "Legal name matches registry",
+    "status": "block",
+    "detail": "Doc: Neha Banerjee (Prop. Shri Physio Clinic) | Registry: Neha Banerjee (Prop. Neelgiri Physio Clinic)",
+    "action": "Name on certificate differs from GST registry: request fresh copy via Entity Locker"
+   },
+   {
+    "id": "gst.trade",
+    "label": "Trade name matches registry",
+    "status": "pass",
+    "detail": "Doc: Neelgiri Physio Clinic | Registry: Neelgiri Physio Clinic",
+    "action": ""
+   },
+   {
+    "id": "gst.address",
+    "label": "Address matches registry",
+    "status": "pass",
+    "detail": "Registry: Shop/Unit 52, Transport Nagar, Delhi, Delhi - 334596",
+    "action": ""
+   },
+   {
+    "id": "udyam.registry",
+    "label": "Udyam number found in registry",
+    "status": "pass",
+    "detail": "UDYAM-DL-00-9565547",
+    "action": ""
+   },
+   {
+    "id": "udyam.name",
+    "label": "Udyam name matches",
+    "status": "pass",
+    "detail": "Registry: Neelgiri Physio Clinic",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-07-05 (10 days old)",
+    "action": ""
+   },
+   {
+    "id": "addr.name",
+    "label": "Bill is in the business name",
+    "status": "pass",
+    "detail": "Billed to: Neelgiri Physio Clinic",
+    "action": ""
+   },
+   {
+    "id": "addr.match",
+    "label": "Bill address = GST address",
+    "status": "pass",
+    "detail": "Bill: Shop/Unit 52, Transport Nagar, Delhi, Delhi - 334596",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2030-05-05",
+    "action": ""
+   },
+   {
+    "id": "sig.biz",
+    "label": "Signatory belongs to this business",
+    "status": "pass",
+    "detail": "ID for: Neelgiri Physio Clinic",
+    "action": ""
+   },
+   {
+    "id": "sig.prop",
+    "label": "Signatory is the proprietor",
+    "status": "pass",
+    "detail": "ID: Neha Banerjee | Proprietor: Neha Banerjee",
+    "action": ""
+   }
+  ]
+ },
+ "K08": {
+  "applicant": "K08",
+  "gstin": "24XORXG9365M1Z3",
+  "business": "Green Leaf Legal Associates",
+  "verdict": "Approved",
+  "blocking": [],
+  "checks": [
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "pass",
+    "detail": "24XORXG9365M1Z3 (OCR read '24X0RXG9365M1Z3', corrected look-alike characters)",
+    "action": ""
+   },
+   {
+    "id": "gst.status",
+    "label": "GSTIN active in registry",
+    "status": "pass",
+    "detail": "Registry status: Active",
+    "action": ""
+   },
+   {
+    "id": "gst.state",
+    "label": "State code matches registry",
+    "status": "pass",
+    "detail": "24 = Gujarat; registry: Gujarat",
+    "action": ""
+   },
+   {
+    "id": "gst.legal",
+    "label": "Legal name matches registry",
+    "status": "pass",
+    "detail": "Doc: Joseph Rao (Prop. Green Leaf Legal Associates) | Registry: Joseph Rao (Prop. Green Leaf Legal Associates)",
+    "action": ""
+   },
+   {
+    "id": "gst.trade",
+    "label": "Trade name matches registry",
+    "status": "pass",
+    "detail": "Doc: Green Leaf Legal Associates | Registry: Green Leaf Legal Associates",
+    "action": ""
+   },
+   {
+    "id": "gst.address",
+    "label": "Address matches registry",
+    "status": "pass",
+    "detail": "Registry: Shop/Unit 238, Ring Road, Vadodara, Gujarat - 348176",
+    "action": ""
+   },
+   {
+    "id": "udyam.registry",
+    "label": "Udyam number found in registry",
+    "status": "pass",
+    "detail": "UDYAM-GJ-00-8477445",
+    "action": ""
+   },
+   {
+    "id": "udyam.name",
+    "label": "Udyam name matches",
+    "status": "pass",
+    "detail": "Registry: Green Leaf Legal Associates",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-05-26 (50 days old)",
+    "action": ""
+   },
+   {
+    "id": "addr.name",
+    "label": "Bill is in the business name",
+    "status": "pass",
+    "detail": "Billed to: Green Leaf Legal Associates",
+    "action": ""
+   },
+   {
+    "id": "addr.match",
+    "label": "Bill address = GST address",
+    "status": "pass",
+    "detail": "Bill: Shop/Unit 238, Ring Road, Vadodara, Gujarat - 348176",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2027-09-18",
+    "action": ""
+   },
+   {
+    "id": "sig.biz",
+    "label": "Signatory belongs to this business",
+    "status": "pass",
+    "detail": "ID for: Green Leaf Legal Associates",
+    "action": ""
+   },
+   {
+    "id": "sig.prop",
+    "label": "Signatory is the proprietor",
+    "status": "pass",
+    "detail": "ID: Joseph Rao | Proprietor: Joseph Rao",
+    "action": ""
+   }
+  ]
+ },
+ "K09": {
+  "applicant": "K09",
+  "gstin": "37LDYXK0296F1ZB",
+  "business": "Kaveri Insurance Advisors",
+  "verdict": "Approved",
+  "blocking": [],
+  "checks": [
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "pass",
+    "detail": "37LDYXK0296F1ZB",
+    "action": ""
+   },
+   {
+    "id": "gst.status",
+    "label": "GSTIN active in registry",
+    "status": "pass",
+    "detail": "Registry status: Active",
+    "action": ""
+   },
+   {
+    "id": "gst.state",
+    "label": "State code matches registry",
+    "status": "pass",
+    "detail": "37 = Andhra Pradesh; registry: Andhra Pradesh",
+    "action": ""
+   },
+   {
+    "id": "gst.legal",
+    "label": "Legal name matches registry",
+    "status": "pass",
+    "detail": "Doc: Anita Kulkarni (Prop. Kaveri Insurance Advisors) | Registry: Anita Kulkarni (Prop. Kaveri Insurance Advisors)",
+    "action": ""
+   },
+   {
+    "id": "gst.trade",
+    "label": "Trade name matches registry",
+    "status": "pass",
+    "detail": "Doc: Kaveri Insurance Advisors | Registry: Kaveri Insurance Advisors",
+    "action": ""
+   },
+   {
+    "id": "gst.address",
+    "label": "Address matches registry",
+    "status": "pass",
+    "detail": "Registry: Shop/Unit 217, Civil Lines, Visakhapatnam, Andhra Pradesh - 405337",
+    "action": ""
+   },
+   {
+    "id": "udyam.registry",
+    "label": "Udyam number found in registry",
+    "status": "pass",
+    "detail": "UDYAM-AP-00-9751562",
+    "action": ""
+   },
+   {
+    "id": "udyam.name",
+    "label": "Udyam name matches",
+    "status": "pass",
+    "detail": "Registry: Kaveri Insurance Advisors",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-07-10 (5 days old)",
+    "action": ""
+   },
+   {
+    "id": "addr.name",
+    "label": "Bill is in the business name",
+    "status": "pass",
+    "detail": "Billed to: Kaveri Insurance Advisors",
+    "action": ""
+   },
+   {
+    "id": "addr.match",
+    "label": "Bill address = GST address",
+    "status": "pass",
+    "detail": "Bill: Shop/Unit 217, Civil Lines, Visakhapatnam, Andhra Pradesh - 405337",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2027-12-22",
+    "action": ""
+   },
+   {
+    "id": "sig.biz",
+    "label": "Signatory belongs to this business",
+    "status": "pass",
+    "detail": "ID for: Kaveri Insurance Advisors",
+    "action": ""
+   },
+   {
+    "id": "sig.prop",
+    "label": "Signatory is the proprietor",
+    "status": "pass",
+    "detail": "ID: Anita Kulkarni | Proprietor: Anita Kulkarni",
+    "action": ""
+   }
+  ]
+ },
+ "K10": {
+  "applicant": "K10",
+  "gstin": "27QHJXK0658U1ZL",
+  "business": "Kaveri Stays LLP",
+  "verdict": "Approved",
+  "blocking": [],
+  "checks": [
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "pass",
+    "detail": "27QHJXK0658U1ZL (OCR read '27QHIXKO658U1ZL', corrected look-alike characters)",
+    "action": ""
+   },
+   {
+    "id": "gst.status",
+    "label": "GSTIN active in registry",
+    "status": "pass",
+    "detail": "Registry status: Active",
+    "action": ""
+   },
+   {
+    "id": "gst.state",
+    "label": "State code matches registry",
+    "status": "pass",
+    "detail": "27 = Maharashtra; registry: Maharashtra",
+    "action": ""
+   },
+   {
+    "id": "gst.legal",
+    "label": "Legal name matches registry",
+    "status": "pass",
+    "detail": "Doc: Kaveri Stays LLP | Registry: Kaveri Stays LLP",
+    "action": ""
+   },
+   {
+    "id": "gst.trade",
+    "label": "Trade name matches registry",
+    "status": "pass",
+    "detail": "Doc: Kaveri Stays LLP | Registry: Kaveri Stays LLP",
+    "action": ""
+   },
+   {
+    "id": "gst.address",
+    "label": "Address matches registry",
+    "status": "pass",
+    "detail": "Registry: Shop/Unit 21, Sector 14, Mumbai, Maharashtra - 570043",
+    "action": ""
+   },
+   {
+    "id": "udyam.registry",
+    "label": "Udyam number found in registry",
+    "status": "pass",
+    "detail": "UDYAM-MH-00-7183141",
+    "action": ""
+   },
+   {
+    "id": "udyam.name",
+    "label": "Udyam name matches",
+    "status": "pass",
+    "detail": "Registry: Kaveri Stays LLP",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-06-18 (27 days old)",
+    "action": ""
+   },
+   {
+    "id": "addr.name",
+    "label": "Bill is in the business name",
+    "status": "pass",
+    "detail": "Billed to: Kaveri Stays LLP",
+    "action": ""
+   },
+   {
+    "id": "addr.match",
+    "label": "Bill address = GST address",
+    "status": "pass",
+    "detail": "Bill: Shop/Unit 21, Sector 14, Mumbai, Maharashtra - 570043",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2029-06-01",
+    "action": ""
+   },
+   {
+    "id": "sig.biz",
+    "label": "Signatory belongs to this business",
+    "status": "pass",
+    "detail": "ID for: Kaveri Stays LLP",
+    "action": ""
+   }
+  ]
+ },
+ "K11": {
+  "applicant": "K11",
+  "gstin": "03KGZXT1320R1ZZ",
+  "business": "Trinity Bake House Pvt Ltd",
+  "verdict": "Rejected for now",
+  "blocking": [
+   "Address proof not older than 90 days"
+  ],
+  "checks": [
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "pass",
+    "detail": "03KGZXT1320R1ZZ",
+    "action": ""
+   },
+   {
+    "id": "gst.status",
+    "label": "GSTIN active in registry",
+    "status": "pass",
+    "detail": "Registry status: Active",
+    "action": ""
+   },
+   {
+    "id": "gst.state",
+    "label": "State code matches registry",
+    "status": "pass",
+    "detail": "03 = Punjab; registry: Punjab",
+    "action": ""
+   },
+   {
+    "id": "gst.legal",
+    "label": "Legal name matches registry",
+    "status": "pass",
+    "detail": "Doc: Trinity Bake House Pvt Ltd | Registry: Trinity Bake House Pvt Ltd",
+    "action": ""
+   },
+   {
+    "id": "gst.trade",
+    "label": "Trade name matches registry",
+    "status": "pass",
+    "detail": "Doc: Trinity Bake House Pvt Ltd | Registry: Trinity Bake House Pvt Ltd",
+    "action": ""
+   },
+   {
+    "id": "gst.address",
+    "label": "Address matches registry",
+    "status": "pass",
+    "detail": "Registry: Shop/Unit 188, Industrial Area Phase 2, Ludhiana, Punjab - 541498",
+    "action": ""
+   },
+   {
+    "id": "udyam.registry",
+    "label": "Udyam number found in registry",
+    "status": "pass",
+    "detail": "UDYAM-PB-00-9719478",
+    "action": ""
+   },
+   {
+    "id": "udyam.name",
+    "label": "Udyam name matches",
+    "status": "pass",
+    "detail": "Registry: Trinity Bake House Pvt Ltd",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "block",
+    "detail": "Bill dated 2025-10-31 (257 days old)",
+    "action": "Fetch latest bill via DigiLocker / ask for a bill from the last 90 days"
+   },
+   {
+    "id": "addr.name",
+    "label": "Bill is in the business name",
+    "status": "pass",
+    "detail": "Billed to: Trinity Bake House Pvt Ltd",
+    "action": ""
+   },
+   {
+    "id": "addr.match",
+    "label": "Bill address = GST address",
+    "status": "pass",
+    "detail": "Bill: Shop/Unit 188, Industrial Area Phase 2, Ludhiana, Punjab - 541498",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2028-12-23",
+    "action": ""
+   },
+   {
+    "id": "sig.biz",
+    "label": "Signatory belongs to this business",
+    "status": "pass",
+    "detail": "ID for: Trinity Bake House Pvt Ltd",
+    "action": ""
+   }
+  ]
+ },
+ "K12": {
+  "applicant": "K12",
+  "gstin": "37NBLXS1145E1ZU",
+  "business": "Star Electronics",
+  "verdict": "Approved",
+  "blocking": [],
+  "checks": [
+   {
+    "id": "gst.format",
+    "label": "GSTIN format and checksum",
+    "status": "pass",
+    "detail": "37NBLXS1145E1ZU",
+    "action": ""
+   },
+   {
+    "id": "gst.status",
+    "label": "GSTIN active in registry",
+    "status": "pass",
+    "detail": "Registry status: Active",
+    "action": ""
+   },
+   {
+    "id": "gst.state",
+    "label": "State code matches registry",
+    "status": "pass",
+    "detail": "37 = Andhra Pradesh; registry: Andhra Pradesh",
+    "action": ""
+   },
+   {
+    "id": "gst.legal",
+    "label": "Legal name matches registry",
+    "status": "pass",
+    "detail": "Doc: Pooja Agarwal (Prop. Star Electronics) | Registry: Pooja Agarwal (Prop. Star Electronics)",
+    "action": ""
+   },
+   {
+    "id": "gst.trade",
+    "label": "Trade name matches registry",
+    "status": "pass",
+    "detail": "Doc: Star Electronics | Registry: Star Electronics",
+    "action": ""
+   },
+   {
+    "id": "gst.address",
+    "label": "Address matches registry",
+    "status": "pass",
+    "detail": "Registry: Shop/Unit 216, Nehru Nagar, Visakhapatnam, Andhra Pradesh - 762071",
+    "action": ""
+   },
+   {
+    "id": "udyam.registry",
+    "label": "Udyam number found in registry",
+    "status": "pass",
+    "detail": "UDYAM-AP-00-5186772",
+    "action": ""
+   },
+   {
+    "id": "udyam.name",
+    "label": "Udyam name matches",
+    "status": "pass",
+    "detail": "Registry: Star Electronics",
+    "action": ""
+   },
+   {
+    "id": "addr.age",
+    "label": "Address proof not older than 90 days",
+    "status": "pass",
+    "detail": "Bill dated 2026-07-06 (9 days old)",
+    "action": ""
+   },
+   {
+    "id": "addr.name",
+    "label": "Bill is in the business name",
+    "status": "pass",
+    "detail": "Billed to: Star Electronics",
+    "action": ""
+   },
+   {
+    "id": "addr.match",
+    "label": "Bill address = GST address",
+    "status": "pass",
+    "detail": "Bill: Shop/Unit 216, Nehru Nagar, Visakhapatnam, Andhra Pradesh - 762071",
+    "action": ""
+   },
+   {
+    "id": "sig.valid",
+    "label": "Signatory ID valid",
+    "status": "pass",
+    "detail": "Valid till 2029-03-03",
+    "action": ""
+   },
+   {
+    "id": "sig.biz",
+    "label": "Signatory belongs to this business",
+    "status": "pass",
+    "detail": "ID for: Star Electronics",
+    "action": ""
+   },
+   {
+    "id": "sig.prop",
+    "label": "Signatory is the proprietor",
+    "status": "pass",
+    "detail": "ID: Pooja Agarwal | Proprietor: Pooja Agarwal",
+    "action": ""
+   }
+  ]
+ }
+}
